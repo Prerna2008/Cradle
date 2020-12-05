@@ -13,7 +13,7 @@ class Bob {
       World.add(world, this.body);
     }
     display(){
-      var pos =this.body.position;
+      var bobpos =this.body.position;
       push();
       translate(bobpos.x,bobpos.y);
       rectMode(CENTER);
@@ -22,5 +22,5 @@ class Bob {
       ellipse(0, 0, this.r,this.r);
       pop();
     }
-  };
+  }
   
